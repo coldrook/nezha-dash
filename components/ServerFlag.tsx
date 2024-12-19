@@ -41,7 +41,7 @@ export default function ServerFlag({
   if (!country_code) return null
 
   if (supportsEmojiFlags && country_code.toLowerCase() === "tw") {
-    country_code = "cn"
+    country_code = "tw"
   }
 
   return (
